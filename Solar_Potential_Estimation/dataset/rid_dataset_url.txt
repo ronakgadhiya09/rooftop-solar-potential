@@ -1,0 +1,2 @@
+Link for RID dataset used for Pre-training the model:
+https://mediatum.ub.tum.de/1655470

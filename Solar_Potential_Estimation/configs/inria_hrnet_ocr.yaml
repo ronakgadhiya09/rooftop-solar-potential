@@ -1,0 +1,66 @@
+MODEL:
+  NAME: seg_hrnet_ocr
+  # PRETRAINED: False
+  PRETRAINED: "pretrained/f_epoch_49.pth"
+  EXTRA:
+    STAGE1:
+      NUM_MODULES: 1
+      NUM_BRANCHES: 1
+      NUM_BLOCKS: [4]
+      NUM_CHANNELS: [64]
+      BLOCK: 'BOTTLENECK'
+      FUSE_METHOD: 'SUM'
+    STAGE2:
+      NUM_MODULES: 1
+      NUM_BRANCHES: 2
+      NUM_BLOCKS: [4, 4]
+      NUM_CHANNELS: [48, 96]
+      BLOCK: 'BASIC'
+      FUSE_METHOD: 'SUM'
+    STAGE3:
+      NUM_MODULES: 4
+      NUM_BRANCHES: 3
+      NUM_BLOCKS: [4, 4, 4]
+      NUM_CHANNELS: [48, 96, 192]
+      BLOCK: 'BASIC'
+      FUSE_METHOD: 'SUM'
+    STAGE4:
+      NUM_MODULES: 3
+      NUM_BRANCHES: 4
+      NUM_BLOCKS: [4, 4, 4, 4]
+      NUM_CHANNELS: [48, 96, 192, 384]
+      BLOCK: 'BASIC'
+      FUSE_METHOD: 'SUM'
+  OCR:
+    KEY_CHANNELS: 256
+    MID_CHANNELS: 512
+  
+  ALIGN_CORNERS: True
+
+DATASET:
+  DATASET: "india_dataset"
+  ROOT: "inria_dataset/twoChannels_in"
+  TRAIN_SET: "train"
+  VAL_SET: "val"
+  IMAGE_SIZE: [512, 512]
+  NUM_CLASSES: 1  # 1-channel Binary segmentation(roof)
+
+SOLVER:
+  BATCH_SIZE: 20
+  BASE_LR: 0.0001       # Base learning rate (will be used as reference)
+  # HEAD_LR: 0.01       # Phase 1 (head training) LR
+  # FULL_LR: 0.0001
+  LR_SCHEDULER: "poly"
+  MAX_EPOCHES: 100
+  WEIGHT_DECAY: 0.0001
+
+LOSS:
+  USE_OHEM: False
+  OHEM_THRESH: 0.9
+  CLASS_BALANCE: True
+
+OUTPUT_DIR: "i_outputs"
+
+LOG_DIR: "log"
+
+# /raid/home/dgx1570/miniconda3/envs/env_3.9
