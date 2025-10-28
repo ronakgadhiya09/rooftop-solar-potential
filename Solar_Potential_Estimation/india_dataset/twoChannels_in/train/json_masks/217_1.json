@@ -1,0 +1,76 @@
+[
+    {
+        "content": [
+            {
+                "x": 1.5,
+                "y": 21
+            },
+            {
+                "x": 213.5,
+                "y": 40
+            },
+            {
+                "x": 170.5,
+                "y": 509
+            },
+            {
+                "x": 1.5,
+                "y": 511
+            }
+        ],
+        "rectMask": {
+            "xMin": 1.5,
+            "yMin": 21,
+            "width": 212,
+            "height": 490
+        },
+        "labels": {
+            "labelName": "unnamed",
+            "labelColor": "red",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 107.5,
+            "y": 266
+        },
+        "contentType": "polygon"
+    },
+    {
+        "content": [
+            {
+                "x": 291.5,
+                "y": 45
+            },
+            {
+                "x": 505.5,
+                "y": 70
+            },
+            {
+                "x": 463.5,
+                "y": 507
+            },
+            {
+                "x": 246.5,
+                "y": 511
+            }
+        ],
+        "rectMask": {
+            "xMin": 246.5,
+            "yMin": 45,
+            "width": 259,
+            "height": 466
+        },
+        "labels": {
+            "labelName": "unnamed",
+            "labelColor": "red",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 376,
+            "y": 278
+        },
+        "contentType": "polygon"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "content": [
+            {
+                "x": 189.5,
+                "y": 269
+            },
+            {
+                "x": 228.5,
+                "y": 258
+            },
+            {
+                "x": 272.5,
+                "y": 261
+            },
+            {
+                "x": 256.5,
+                "y": 156
+            },
+            {
+                "x": 217.5,
+                "y": 156
+            },
+            {
+                "x": 174.5,
+                "y": 162
+            }
+        ],
+        "rectMask": {
+            "xMin": 174.5,
+            "yMin": 156,
+            "width": 98,
+            "height": 113
+        },
+        "labels": {
+            "labelName": "Tilted roof",
+            "labelColor": "#ff0000",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 223.5,
+            "y": 212.5
+        },
+        "contentType": "polygon"
+    }
+]

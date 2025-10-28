@@ -1,0 +1,96 @@
+[
+    {
+        "content": [
+            {
+                "x": 335.5,
+                "y": 18
+            },
+            {
+                "x": 368.5,
+                "y": 78
+            },
+            {
+                "x": 380.5,
+                "y": 104
+            },
+            {
+                "x": 500.5,
+                "y": 27
+            },
+            {
+                "x": 489.5,
+                "y": 0
+            },
+            {
+                "x": 367.5,
+                "y": 0
+            }
+        ],
+        "rectMask": {
+            "xMin": 335.5,
+            "yMin": 0,
+            "width": 165,
+            "height": 104
+        },
+        "labels": {
+            "labelName": "unnamed",
+            "labelColor": "red",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 418,
+            "y": 52
+        },
+        "contentType": "polygon"
+    },
+    {
+        "content": [
+            {
+                "x": 96.5,
+                "y": 159
+            },
+            {
+                "x": 173.5,
+                "y": 254
+            },
+            {
+                "x": 243.5,
+                "y": 353
+            },
+            {
+                "x": 19.5,
+                "y": 512
+            },
+            {
+                "x": 0,
+                "y": 512
+            },
+            {
+                "x": 0,
+                "y": 382
+            },
+            {
+                "x": 0,
+                "y": 232
+            }
+        ],
+        "rectMask": {
+            "xMin": 0,
+            "yMin": 159,
+            "width": 243.5,
+            "height": 353
+        },
+        "labels": {
+            "labelName": "unnamed",
+            "labelColor": "red",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 121.75,
+            "y": 335.5
+        },
+        "contentType": "polygon"
+    }
+]

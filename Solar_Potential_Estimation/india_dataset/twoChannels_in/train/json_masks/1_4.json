@@ -1,0 +1,96 @@
+[
+    {
+        "content": [
+            {
+                "x": 292.5,
+                "y": 304.5
+            },
+            {
+                "x": 277.5,
+                "y": 329.5
+            },
+            {
+                "x": 255.5,
+                "y": 317.5
+            },
+            {
+                "x": 245.5,
+                "y": 345.5
+            },
+            {
+                "x": 404.5,
+                "y": 441.5
+            },
+            {
+                "x": 420.5,
+                "y": 415.5
+            },
+            {
+                "x": 438.5,
+                "y": 391.5
+            },
+            {
+                "x": 318.5,
+                "y": 319.5
+            }
+        ],
+        "rectMask": {
+            "xMin": 245.5,
+            "yMin": 304.5,
+            "width": 193,
+            "height": 137
+        },
+        "labels": {
+            "labelName": "unnamed",
+            "labelColor": "red",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 342,
+            "y": 373
+        },
+        "contentType": "polygon"
+    },
+    {
+        "content": [
+            {
+                "x": 225.5,
+                "y": 341.5
+            },
+            {
+                "x": 196.5,
+                "y": 387.5
+            },
+            {
+                "x": 394.5,
+                "y": 511.5
+            },
+            {
+                "x": 488.5,
+                "y": 512
+            },
+            {
+                "x": 496.5,
+                "y": 503.5
+            }
+        ],
+        "rectMask": {
+            "xMin": 196.5,
+            "yMin": 341.5,
+            "width": 300,
+            "height": 170.5
+        },
+        "labels": {
+            "labelName": "unnamed",
+            "labelColor": "red",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 346.5,
+            "y": 426.75
+        },
+        "contentType": "polygon"
+    }
+]

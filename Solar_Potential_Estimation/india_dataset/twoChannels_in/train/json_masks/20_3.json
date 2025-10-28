@@ -1,0 +1,133 @@
+[
+    {
+        "content": [
+            {
+                "x": 6.5,
+                "y": 270.5
+            },
+            {
+                "x": 33.5,
+                "y": 331.5
+            },
+            {
+                "x": 42.5,
+                "y": 401.5
+            },
+            {
+                "x": 120.5,
+                "y": 389.5
+            },
+            {
+                "x": 104.5,
+                "y": 306.5
+            },
+            {
+                "x": 76.5,
+                "y": 249.5
+            }
+        ],
+        "rectMask": {
+            "xMin": 6.5,
+            "yMin": 249.5,
+            "width": 114,
+            "height": 152
+        },
+        "labels": {
+            "labelName": "unnamed",
+            "labelColor": "red",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 63.5,
+            "y": 325.5
+        },
+        "contentType": "polygon"
+    },
+    {
+        "content": [
+            {
+                "x": 185.5,
+                "y": 233.5
+            },
+            {
+                "x": 223.5,
+                "y": 378.5
+            },
+            {
+                "x": 276.5,
+                "y": 360.5
+            },
+            {
+                "x": 320.5,
+                "y": 355.5
+            },
+            {
+                "x": 274.5,
+                "y": 207.5
+            }
+        ],
+        "rectMask": {
+            "xMin": 185.5,
+            "yMin": 207.5,
+            "width": 135,
+            "height": 171
+        },
+        "labels": {
+            "labelName": "unnamed",
+            "labelColor": "red",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 253,
+            "y": 293
+        },
+        "contentType": "polygon"
+    },
+    {
+        "content": [
+            {
+                "x": 225.5,
+                "y": 387.5
+            },
+            {
+                "x": 280.5,
+                "y": 369.5
+            },
+            {
+                "x": 320.5,
+                "y": 358.5
+            },
+            {
+                "x": 364.5,
+                "y": 507.5
+            },
+            {
+                "x": 318.5,
+                "y": 507.5
+            },
+            {
+                "x": 258.5,
+                "y": 507.5
+            }
+        ],
+        "rectMask": {
+            "xMin": 225.5,
+            "yMin": 358.5,
+            "width": 139,
+            "height": 149
+        },
+        "labels": {
+            "labelName": "unnamed",
+            "labelColor": "red",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 295,
+            "y": 433
+        },
+        "contentType": "polygon"
+    }
+]

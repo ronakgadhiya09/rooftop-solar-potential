@@ -1,0 +1,43 @@
+[
+    {
+        "content": [
+            {
+                "x": 224.5,
+                "y": 88
+            },
+            {
+                "x": 262.5,
+                "y": 90
+            },
+            {
+                "x": 301.5,
+                "y": 100
+            },
+            {
+                "x": 306.5,
+                "y": 0
+            },
+            {
+                "x": 230.5,
+                "y": 0
+            }
+        ],
+        "rectMask": {
+            "xMin": 224.5,
+            "yMin": 0,
+            "width": 82,
+            "height": 100
+        },
+        "labels": {
+            "labelName": "unnamed",
+            "labelColor": "red",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 265.5,
+            "y": 50
+        },
+        "contentType": "polygon"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "content": [
+            {
+                "x": 115.5,
+                "y": 222
+            },
+            {
+                "x": 146.5,
+                "y": 169
+            },
+            {
+                "x": 175.5,
+                "y": 121
+            },
+            {
+                "x": 302.5,
+                "y": 189
+            },
+            {
+                "x": 281.5,
+                "y": 246
+            },
+            {
+                "x": 260.5,
+                "y": 298
+            }
+        ],
+        "rectMask": {
+            "xMin": 115.5,
+            "yMin": 121,
+            "width": 187,
+            "height": 177
+        },
+        "labels": {
+            "labelName": "unnamed",
+            "labelColor": "red",
+            "labelColorRGB": "255,0,0",
+            "visibility": false
+        },
+        "labelLocation": {
+            "x": 209,
+            "y": 209.5
+        },
+        "contentType": "polygon"
+    }
+]
